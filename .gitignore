@@ -1,0 +1,21 @@
+# secrets (never commit these)
+.env
+*.pem
+
+# python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# node
+node_modules/
+dist/
+
+# editor and OS
+.vscode/
+.idea/
+.DS_Store
+
+# test data
+resume_*.pdf
